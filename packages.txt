@@ -1,3 +1,0 @@
-default-jre
-korean*
-fonts-unfonts-core
