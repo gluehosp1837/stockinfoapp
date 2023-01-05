@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 import datetime
+import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib import rc
 from io import BytesIO
