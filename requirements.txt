@@ -1,4 +1,0 @@
-yfinance
-matplotlib
-pandas
-openpyxl
