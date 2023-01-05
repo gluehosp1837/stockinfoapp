@@ -48,8 +48,8 @@ st.title("주식 정보를 가져오는 웹 앱")
 
 st.sidebar.header("회사 이름과 기간 입력")
 
-ratio_options = ["코스피", "코스닥"]
-ratio_selected = st.slidebar.ratio("증권시장", ratio_options)
+radio_options = ["코스피", "코스닥"]
+radio_selected = st.sidebar.radio("증권시장", radio_options)
 
 # 1. text_input(), date_input()으로 주식 종목 이름, 기간을 입력 받아서 stock_name, date_range 변수에 담기
 
